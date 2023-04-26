@@ -10,5 +10,3 @@ sudo ufw allow 'Nginx HTTP'
 sudo echo 'Hello World!' > /var/www/html/index.html
 
 sudo systemctl start nginx
-
-
