@@ -1,4 +1,4 @@
-!#/usr/bin/env bash
+#!/usr/bin/env bash
 
 # The below is the commands to use when installing nginx on ubuntu.
 # Update package index and install Nginx
