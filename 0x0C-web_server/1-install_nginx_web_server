@@ -1,0 +1,17 @@
+!#/usr/bin/env bash
+
+# The below is the commands to use when installing nginx on ubuntu.
+# Update package index and install Nginx
+sudo apt-get update
+sudo apt-get -y install nginx
+
+# Configure Nginx to listen on port 80 and serve "Hello World!" on the root URL
+sudo echo "Hello World!" > /var/www/html/index.html
+
+# Restart Nginx
+sudo /etc/init.d/nginx restart
+
+# To run the file
+sudo ./1-install_nginx_web_server.sh
+
+
